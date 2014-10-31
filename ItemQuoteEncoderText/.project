@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<projectDescription>
+	<name>ItemQuoteEncoderText</name>
+	<comment></comment>
+	<projects>
+	</projects>
+	<buildSpec>
+		<buildCommand>
+			<name>org.eclipse.jdt.core.javabuilder</name>
+			<arguments>
+			</arguments>
+		</buildCommand>
+	</buildSpec>
+	<natures>
+		<nature>org.eclipse.jdt.core.javanature</nature>
+	</natures>
+	<linkedResources>
+		<link>
+			<name>src/ItemQuote.java</name>
+			<type>1</type>
+			<location>D:/MyWorks/Java/network_programming/ItemQuoteEncoderText/src/ItemQuote.java</location>
+		</link>
+		<link>
+			<name>src/ItemQuoteEncoder.java</name>
+			<type>1</type>
+			<location>D:/MyWorks/Java/network_programming/ItemQuoteEncoderText/src/ItemQuoteEncoder.java</location>
+		</link>
+		<link>
+			<name>src/ItemQuoteEncoderText.java</name>
+			<type>1</type>
+			<location>D:/MyWorks/Java/network_programming/ItemQuoteEncoderText/src/ItemQuoteEncoderText.java</location>
+		</link>
+		<link>
+			<name>src/ItemQuoteTextConst.java</name>
+			<type>1</type>
+			<location>D:/MyWorks/Java/network_programming/ItemQuoteEncoderText/src/ItemQuoteTextConst.java</location>
+		</link>
+	</linkedResources>
+</projectDescription>
