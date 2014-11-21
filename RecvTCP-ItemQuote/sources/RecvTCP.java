@@ -11,6 +11,9 @@ public class RecvTCP {
     int port = Integer.parseInt(args[0]);   // Receiving Port
 	
     ServerSocket servSock = new ServerSocket(port);
+    
+    for (;;) {
+    	// add
     Socket clntSock = servSock.accept();
 
     // Receive text-encoded quote
@@ -23,9 +26,15 @@ public class RecvTCP {
     ItemQuoteEncoder encoder = new ItemQuoteEncoderBin();
     quote.unitPrice += 10;  // Add 10 cents to unit price
     System.out.println("Sending (binary)...");
-    clntSock.getOutputStream().write(encoder.encode(quote));
-
+    // add
+    byte[] codedQuote = encoder.encode(quote);
+    // clntSock.getOutputStream().write(encoder.encode(quote));
+    clntSock.getOutputStream().write(codedQuote);
+    System.out.println("Sending Binary Encoded : ( " + codedQuote.length + ") bytes");
     clntSock.close();
-    servSock.close();
+    }
+    // add
+
+    //servSock.close();
   }
 }
